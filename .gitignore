@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter and test artifacts
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Generated reports
+reports/*
+
+# Local datasets: do not publish datasets by default
+data/*
+
+# Keep folders available in Git when needed
+!data/.gitkeep
+!reports/.gitkeep
+
+# Local backup
+main_backup_before_upload_sales.py
